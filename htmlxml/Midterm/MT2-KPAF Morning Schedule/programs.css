@@ -1,0 +1,41 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Nick Guevara
+   Date: 3/22/2021
+
+   Filename:         programs.css
+   Supporting Files:
+
+*/
+
+table.programs {
+  width: 100%;
+  border: 2px solid collapse;
+  font-family: 'Arial', 'Verdana', sans-serif;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+tbody td {
+  font-size: 0.7em;
+  vertical-align: top;
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+tr {
+  height: 25px;
+}
+
+thead tr {
+  color: white;
+  background-color: rgb(105, 177, 60);
+}
